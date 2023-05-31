@@ -1,0 +1,28 @@
+.clock {
+    text-align: center;
+    font-size: 152px;
+    background-color: black;
+    border: 5px solid white;
+    color: rgb(14, 208, 14);
+    min-width: 380px;
+    padding: 10px;
+    box-shadow: 10px 20px 20px 10px blue;
+    border-radius: 10px;
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: black;
+}
+
+
+@media screen and (max-width:900px) {
+    .clock {
+       min-width:30%;
+       font-size: 74px;
+    }
+}
